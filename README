@@ -2,8 +2,12 @@ Simple Open-Source UHF RFID Tag Platform
 
 N. Barbot and P. Nikitin
 
-This project is a simple low-cost SDR RFID UHF tag capable of being read by a UHF reader. This reader is designed around a simple envelope detector and a backscattering modulator. All tasks specific to the RFID protocol including clock recovery, data recovery and frame detection are handled in software by a Arduino Uno micro-controller. This tag is able to generate any RFID reply supported by the protocol and to decode any commands sent by a reader in real time.
+In this work, we present a simple open-source software-defined based UHF (RAIN) RFID tag that can be used for academic research. This work is a follow-up to the open-source reader work presented in [1]. The hardware associated with this tag is only composed of an envelope detector and an RF switch and uses a modular design. All operations related to the RFID protocol, which includes clock recovery, data recovery and frame synchronization are entirely realized in software and can be processed by an Arduino Uno platform. The purpose of this work is to encourage researchers and students to experiment with RAIN RFID technology, to understand its protocols and standards, and to improve the proposed tag design. All relevant files (including schematic and source code) will be released as open source to the community.
 
 Citing this work:
 
 N. Barbot and P. Nikitin, “Simple Open-Source UHF RFID Tag Platform,” in 2023 IEEE International Conference on RFID (RFID), Seattle, WA, USA, Jun. 2023, pp. 1–6.
+
+References
+
+[1] N. Barbot, R. De Amorim Jr and P. Nikitin, “Simple Low Cost Open Source UHF RFID Reader,” in Journal of Radio Frequency Identification, vol. 7, pp. 20-26, 2023, doi: 10.1109/JRFID.2022.3227533.
